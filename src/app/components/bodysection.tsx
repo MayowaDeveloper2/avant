@@ -83,7 +83,7 @@ export default function Bodysection() {
                 {/* About us */}
                 <div id="about-us" className="flex flex-col items-center lg:mt-10">
                     <button className="text-black rounded-[10px] bg-customSkyblue mt-6 px-3 py-2 w-[250px] xs:w-[150px]">About us</button>
-                    <div className="sm:w-[380px] xs:w-[350px] lg:w-full lg:text-[18px] mt-3 lg:mt-5">
+                    <div className="sm:w-[380px] xs:w-[350px] lg:w-full text-black lg:text-[18px] mt-3 lg:mt-5">
                         Avant-Garde International Ministries(AGIM) is a dynamic Christian ministry committed to raising an end-time army of soul
                         Winners and mature disciples in Christ. With a mandate to equip the body of Christ and bring millions of souls into God's harvest,
                         AGIM is passionate about fulfilling the great commission by empowering believers to actively engage in soul-winning, discipleship, and 
@@ -98,7 +98,7 @@ export default function Bodysection() {
                     <div className="lg:grid lg:grid-cols-2 lg:mt-[100px]">
                         <div className="flex flex-col lg:justify-center ">
                             <div className="text-customSkyblue font-bold text-[20px] lg:text-2xl sm:mt-4 xs:mt-4 ">The Midday Prayers</div>
-                            <div className="sm:w-[380px] xs:w-[350px] lg:mt-6 lg:w-[400px]">An online 30-minute prayer session that gathers believers daily to pray for their spiritual growth and personal well-being. Taking
+                            <div className="sm:w-[380px] xs:w-[350px] lg:mt-6 lg:w-[400px] text-black">An online 30-minute prayer session that gathers believers daily to pray for their spiritual growth and personal well-being. Taking
                                 place Monday to Friday at 12pm WAT, this powerful sessionn has been a blessing to numerous believers, strengthening their faith and 
                                 deepening their relationship with God. Join us at this spiritual altar as we pray together for God's guidance and grace. 
                             </div>
@@ -129,7 +129,7 @@ export default function Bodysection() {
                     <div className="lg:grid lg:grid-cols-2 lg:mt-[100px]">
                         <div className="flex flex-col lg:justify-center ">
                             <div className="text-customSkyblue font-bold text-[20px] lg:text-2xl sm:mt-4 xs:mt-4 ">The Mega Harvest Prayers</div>
-                            <div className="sm:w-[380px] xs:w-[350px] lg:mt-6 lg:w-[400px]">
+                            <div className="sm:w-[380px] xs:w-[350px] lg:mt-6 lg:w-[400px] text-black">
                                 Every Friday at 10pm WAT, believers gather online for a powerful prayer session dedicated to revival and the salvation
                                 of lost souls. Mega Harvest Prayers unite men and women with a stared burden for God's harvest, interceding for a great
                                 revival within the church and for millions of souls to come to Christ.
@@ -161,7 +161,7 @@ export default function Bodysection() {
                     <div className="lg:grid lg:grid-cols-2 lg:mt-[100px]">
                         <div className="flex flex-col lg:justify-center ">
                             <div className="text-customSkyblue font-bold text-[20px] lg:text-2xl sm:mt-4 xs:mt-4 ">The House of Bread (HOB)</div>
-                            <div className="sm:w-[380px] xs:w-[350px] lg:mt-6 lg:w-[400px]">
+                            <div className="sm:w-[380px] xs:w-[350px] lg:mt-6 lg:w-[400px] text-black">
                                 HOB is the charity and evangelistic outreach arm of AGIM. This initiative targets both rural and urban communities by providing
                                 food, healthcare, and spiritual nourishment. By mobilizing soul winners from different denominations and partnering with churches,
                                 HOB reaches out to the lost, sharing the love of Christ through practical means. HOB also provides food banks and pastries in selected
@@ -193,7 +193,7 @@ export default function Bodysection() {
             </div>
             <div id="our-leaders" className="flex flex-col items-center">
                 <button className="text-black rounded-[10px] bg-customSkyblue mt-6 px-3 py-2 w-[250px] xs:w-[200px]">Meet Our Leaders</button>
-                <div className="w-full mt-3 lg:mb-4 lg:px-24 xs:w-[350px] sm:w-[380px]">
+                <div className="w-full mt-3 lg:mb-4 lg:px-24 xs:w-[350px] sm:w-[380px] text-black">
                     Pastor Darlign Onyeagoro and his wife, Vivian Onyeagoro, coordinate the various expressions and activities of AGIM. Pastor Darlington has
                     been given a clear mandate from God to equip the body of Christ and bring about the manifestation of the Sons of God. His passion for end-time
                     revival drives him to inspire believers to step out of the four walls of the church and into the world to fulfill their divine assignment in soul-
@@ -212,7 +212,7 @@ export default function Bodysection() {
                             <div className="text-black lato sm:text-[30px] xs:w-[350px]  W-[400px] font-bold text-[20px] lg:text-5xl sm:mt-4 xs:mt-4 ">Join the Movement:
                                 Advance God's Kingdom with AGIM
                             </div>
-                            <div className="sm:w-[380px] xs:w-[350px] lg:mt-6 lg:w-[400px]">
+                            <div className="sm:w-[380px] xs:w-[350px] lg:mt-6 lg:w-[400px] text-black">
                                 Become part of a global mission to win souls, disciple nations and
                                 transform communities. Whether through prayer, evangelism, or outreach
                                 there's a role for you. Let's work together to spread the Gospel and bring
