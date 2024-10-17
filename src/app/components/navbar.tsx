@@ -39,7 +39,7 @@ export default function Navbar() {
                 </ul>
                 
                 <div onClick={handlemenubar}>
-                    {isOpen ? <IoMdClose className="lg:hidden text-3xl text-white font-bold" /> : <RiMenu3Fill  className="lg:hidden text-white text-3xl font-bold"/>}
+                    {isOpen ? <IoMdClose className="lg:hidden text-3xl text-white font-bold" /> : <RiMenu3Fill  className="lg:hidden text-black text-3xl font-bold"/>}
                 </div>
                 <div className="hidden lg:block">
                     <button className="bg-customSkyblue text-black rounded-lg px-4 py-2 w-[100px]">Join us</button>
