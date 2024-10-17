@@ -18,7 +18,7 @@ export default function Navbar() {
 
     return (
         <>
-            <nav className="flex w-full bg-customAsh justify-between px-24 sm:px-10 xs:px-10 items-center h-[60px]">
+            <nav className="flex w-full bg-customAsh justify-between px-24 sm:pr-10 sm:pl-1 xs:pr-10 xs:pl-1 items-center h-[60px]">
                 <div>
                     <Image src={avant_garde} alt="" className="w-[200px] h-[50px]"/>
                 </div>
@@ -39,7 +39,7 @@ export default function Navbar() {
                 </ul>
                 
                 <div onClick={handlemenubar}>
-                    {isOpen ? <IoMdClose className="lg:hidden text-3xl text-white font-bold" /> : <RiMenu3Fill  className="lg:hidden text-black text-3xl font-bold"/>}
+                    {isOpen ? <IoMdClose className="lg:hidden text-3xl text-black font-bold" /> : <RiMenu3Fill  className="lg:hidden text-black text-3xl font-bold"/>}
                 </div>
                 <div className="hidden lg:block">
                     <button className="bg-customSkyblue text-black rounded-lg px-4 py-2 w-[100px]">Join us</button>

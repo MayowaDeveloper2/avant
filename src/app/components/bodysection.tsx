@@ -94,10 +94,10 @@ export default function Bodysection() {
                 
                 
             </div>
-            <div className="lg:w-full lg:p-20 xs:p-1 sm:p-2">
+            <div className="lg:w-full lg:p-20 xs:p-1 sm:p-2 sm:flex sm:flex-col sm:items-center xs:flex xs:flex-col xs:items-center ">
                     <div className="lg:grid lg:grid-cols-2 lg:mt-[100px]">
                         <div className="flex flex-col lg:justify-center ">
-                            <div className="text-customSkyblue font-bold text-[20px] lg:text-2xl sm:mt-4 xs:mt-4 ">The Midday Prayers</div>
+                            <div className="text-customSkyblue font-bold text-[20px] lg:text-2xl sm:mt-4 xs:mt-4 sm:text-center xs:text-center ">The Midday Prayers</div>
                             <div className="sm:w-[380px] xs:w-[350px] lg:mt-6 lg:w-[400px] text-black">An online 30-minute prayer session that gathers believers daily to pray for their spiritual growth and personal well-being. Taking
                                 place Monday to Friday at 12pm WAT, this powerful sessionn has been a blessing to numerous believers, strengthening their faith and 
                                 deepening their relationship with God. Join us at this spiritual altar as we pray together for God's guidance and grace. 
@@ -108,14 +108,14 @@ export default function Bodysection() {
                         </div>
                     </div>
             </div>
-            <div className="bg-customSkyblue lg:w-full lg:p-20 xs:p-1 sm:p-2">
+            <div className="bg-customSkyblue lg:w-full lg:p-20 xs:p-1 sm:p-2 sm:flex sm:flex-col sm:items-center xs:flex xs:flex-col xs:items-center">
                     <div className="lg:grid lg:grid-cols-2 lg:mt-[100px] lg:gap-[50px]">
                         
                         <div className="sm:mt-4 xs:mt-4 xs:mb-4 sm:mb-4 xs-w-[200px] sm:w-[390px] xs:px-10 sm:px-12 ">
                             <Image src={radioprogram} alt="" className="xs:w-[300px] sm:w-[380px]  rounded-2xl" />
                         </div>
                         <div className="flex flex-col lg:justify-center xs:px-3 ">
-                            <div className="text-customDarkblue font-bold text-[20px] lg:text-2xl sm:mt-4 xs:mt-4 ">Yonder Hour</div>
+                            <div className="text-customDarkblue font-bold text-[20px] lg:text-2xl sm:mt-4 xs:mt-4 sm:text-center xs:text-center">Yonder Hour</div>
                             <div className="sm:w-[380px] xs:w-[350px] lg:mt-6 lg:w-[400px] text-white xs:mb-3 sm:mb-3"> 
                                 A weekly 15-minute radio program broadcasted through our partner stations. Yonder Hour is designed
                                 to ignite the flame of revival in the hearts of believers. Through teaching and prayer, this program
@@ -125,10 +125,10 @@ export default function Bodysection() {
                         </div>
                     </div>
             </div>
-            <div className="lg:w-full lg:p-20 xs:p-1 sm:p-2">
+            <div className="lg:w-full lg:p-20 xs:p-1 sm:p-2 sm:flex sm:flex-col sm:items-center xs:flex xs:flex-col xs:items-center">
                     <div className="lg:grid lg:grid-cols-2 lg:mt-[100px]">
                         <div className="flex flex-col lg:justify-center ">
-                            <div className="text-customSkyblue font-bold text-[20px] lg:text-2xl sm:mt-4 xs:mt-4 ">The Mega Harvest Prayers</div>
+                            <div className="text-customSkyblue font-bold text-[20px] lg:text-2xl sm:mt-4 xs:mt-4 sm:text-center xs:text-center">The Mega Harvest Prayers</div>
                             <div className="sm:w-[380px] xs:w-[350px] lg:mt-6 lg:w-[400px] text-black">
                                 Every Friday at 10pm WAT, believers gather online for a powerful prayer session dedicated to revival and the salvation
                                 of lost souls. Mega Harvest Prayers unite men and women with a stared burden for God's harvest, interceding for a great
@@ -140,14 +140,14 @@ export default function Bodysection() {
                         </div>
                     </div>
             </div>
-            <div className="bg-customGreen lg:w-full lg:p-20 xs:p-1 sm:p-2">
+            <div className="bg-customGreen lg:w-full lg:p-20 xs:p-1 sm:p-2 sm:flex sm:flex-col sm:items-center xs:flex xs:flex-col xs:items-center">
                     <div className="lg:grid lg:grid-cols-2 lg:mt-[100px] lg:gap-[50px]">
                         
                         <div className="sm:mt-4 xs:mt-4 xs:mb-4 sm:mb-4 xs-w-[200px] sm:w-[390px] xs:px-10 sm:px-12 ">
                             <Image src={schoolevangelism} alt="" className="xs:w-[300px] sm:w-[380px]  rounded-2xl" />
                         </div>
                         <div className="flex flex-col lg:justify-center xs:px-3 ">
-                            <div className="text-customSkyblue font-bold text-[20px] lg:text-2xl sm:mt-4 xs:mt-4 ">The School of Evangelism</div>
+                            <div className="text-customSkyblue font-bold text-[20px] lg:text-2xl sm:mt-4 xs:mt-4 sm:text-center xs:text-center">The School of Evangelism</div>
                             <div className="sm:w-[380px] xs:w-[350px] lg:mt-6 lg:w-[400px] text-white xs:mb-3 sm:mb-3"> 
                                 AGIM's School of Evangelism is dedicated to training over 1 million Soul Winners and Evangelists for Christ.
                                 With 40 comprehensive courses on Evangelism and Discipleship, students are equipped with practical skills to win and
@@ -157,10 +157,10 @@ export default function Bodysection() {
                         </div>
                     </div>
             </div>
-            <div className="lg:w-full lg:p-20 xs:p-1 sm:p-2">
+            <div className="lg:w-full lg:p-20 xs:p-1 sm:p-2 sm:flex sm:flex-col sm:items-center xs:flex xs:flex-col xs:items-center">
                     <div className="lg:grid lg:grid-cols-2 lg:mt-[100px]">
                         <div className="flex flex-col lg:justify-center ">
-                            <div className="text-customSkyblue font-bold text-[20px] lg:text-2xl sm:mt-4 xs:mt-4 ">The House of Bread (HOB)</div>
+                            <div className="text-customSkyblue font-bold text-[20px] lg:text-2xl sm:mt-4 xs:mt-4 sm:text-center xs:text-center">The House of Bread (HOB)</div>
                             <div className="sm:w-[380px] xs:w-[350px] lg:mt-6 lg:w-[400px] text-black">
                                 HOB is the charity and evangelistic outreach arm of AGIM. This initiative targets both rural and urban communities by providing
                                 food, healthcare, and spiritual nourishment. By mobilizing soul winners from different denominations and partnering with churches,
@@ -174,14 +174,14 @@ export default function Bodysection() {
                         </div>
                     </div>
             </div>
-            <div className="bg-customDarkblue lg:w-full lg:p-20 xs:p-1 sm:p-2">
+            <div className="bg-customDarkblue lg:w-full lg:p-20 xs:p-1 sm:p-2 sm:flex sm:flex-col sm:items-center xs:flex xs:flex-col xs:items-center">
                     <div className="lg:grid lg:grid-cols-2 lg:mt-[100px] lg:gap-[50px]">
                         
                         <div className="sm:mt-4 xs:mt-4 xs:mb-4 sm:mb-4 xs-w-[200px] sm:w-[390px] xs:px-10 sm:px-12 ">
                             <Image src={camerastudio} alt="" className="xs:w-[300px] sm:w-[380px]  rounded-2xl" />
                         </div>
                         <div className="flex flex-col lg:justify-center xs:px-3 ">
-                            <div className="text-customSkyblue font-bold text-[20px] lg:text-2xl sm:mt-4 xs:mt-4 ">Living Spring Studio</div>
+                            <div className="text-customSkyblue font-bold text-[20px] lg:text-2xl sm:mt-4 xs:mt-4 sm:text-center xs:text-center">Living Spring Studio</div>
                             <div className="sm:w-[380px] xs:w-[350px] lg:mt-6 lg:w-[400px] text-white xs:mb-3 sm:mb-3"> 
                                 Living Springs Studio is AGIM's upcoming world-class facility dedicated to producing and streaming
                                 Christian-based programs. Operating 24/7 online, this platform will showcase believers' gifts and talents
