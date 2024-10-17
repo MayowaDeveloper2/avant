@@ -16,8 +16,8 @@ import radioprogram from "../images/microphone-1562354.jpg";
 import camerastudio from "../images/man-filming-with-professional-camera.jpg";
 import prayerharvest from "../images/praying.jpg";
 import schoolevangelism from "../images/school evangelism.jpg";
-import charity from "../images/children-1388705.jpg";
-import darlington from "../images/Darlington.jpg";
+import charity from "../images/outreach.jpg";
+import darlington from "../images/Darlington picture.jpg";
 
 export default function Bodysection() {
     const Features = [
@@ -202,7 +202,7 @@ export default function Bodysection() {
                     Pastor Darlington belives that the church's primary mission is beyond the phyical church building- it is in the field, where souls are won and
                     discipled.
                 </div>
-                <div className="xs:w-[300px] lg:w-[400px] lg:h-[500px] xs:h-[520px] sm:w-[350px] sm:h-[600px] rounded-3xl mt-4">
+                <div className="xs:w-[300px] lg:w-[400px] lg:h-[500px] xs:h-[330px] sm:w-[350px] sm:h-[380px] rounded-3xl mt-4">
                    <Image src={darlington} alt="darlington" className=" rounded-2xl"/>
                 </div>
             </div>

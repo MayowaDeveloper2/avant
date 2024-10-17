@@ -17,8 +17,8 @@ export default function Navbar() {
 
 
     return (
-        <>
-            <nav className="flex w-full bg-customAsh justify-between px-24 sm:pr-10 sm:pl-1 xs:pr-10 xs:pl-1 items-center h-[60px]">
+        <div>
+            <nav className="flex fixed z-50 w-full bg-customAsh justify-between px-24 sm:pr-10 sm:pl-1 xs:pr-10 xs:pl-1 items-center h-[60px]">
                 <div>
                     <Image src={avant_garde} alt="" className="w-[200px] h-[50px]"/>
                 </div>
@@ -47,12 +47,20 @@ export default function Navbar() {
             </nav>
             <div className={`fixed bg-customAsh z-50 h-screen top-14 left-0 w-[300px] text-white ps-2 transform transition-transform duration-300 ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}> 
                 <ul className="text-black">
-                    <li>About us</li>
-                    <li>Expressions</li>
-                    <li>Our leaders</li>
-                    <li>Contact us</li>
+                    <li>
+                      <a href="#about-us" className="hover:text-blue-500">About us</a>
+                    </li>
+                    <li>
+                      <a href="#expressions" className="hover:text-blue-500">Expressions</a>
+                    </li>
+                    <li>
+                      <a href="#our-leaders" className="hover:text-blue-500">Our Leaders</a>
+                    </li>
+                    <li>
+                      <a href="#contact-us" className="hover:text-blue-500">Contact us</a>
+                    </li>
                 </ul>
             </div>
-        </>
+        </div>
     )
 };
