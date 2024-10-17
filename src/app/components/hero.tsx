@@ -22,7 +22,7 @@ export default function Hero() {
     }, [texts]);
 
     return (
-        <div className="flex flex-col items-center xs:pt-10 sm:pt-10">
+        <div className="flex lg:pt-16 flex-col items-center xs:pt-10 sm:pt-10">
             <div className="text-[64px] sm:text-[40px] xs:text-[30px] text-black bricolage text-center mt-6">
                 Equipping believers through
             </div>
